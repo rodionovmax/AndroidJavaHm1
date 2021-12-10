@@ -1,18 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/container_background"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/first_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/main_title_text"
+            android:background="@color/custom_green"
+            android:textSize="36sp"
+            android:textColor="@color/custom_yellow"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/first_edit_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/edit_text_grey"
+            android:inputType="number"
+            android:textColor="@color/purple_700"
+            android:textSize="30sp"
+            android:gravity="right"
+            />
+
+        <LinearLayout
+            android:id="@+id/container_for_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/horizontal_button_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                app:backgroundTint="@color/teal_200"
+                android:text="@string/h_button_one"
+                />
+
+            <Button
+                android:id="@+id/horizontal_button_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                app:backgroundTint="@color/btn_brown"
+                android:text="@string/h_button_two"
+                />
+
+            <Button
+                android:id="@+id/horizontal_button_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                app:backgroundTint="@color/btn_dark_brown"
+                android:text="@string/h_button_three"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_for_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/switch_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/checkbox_text"
+            android:textSize="20sp"
+            android:textColor="@color/purple_700"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textOff="@string/toggle_text_off"
+            android:textOn="@string/toggle_text_on"
+            android:textColorHint="@color/custom_blue"
+            android:textSize="36sp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
