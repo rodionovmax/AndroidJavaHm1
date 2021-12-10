@@ -8,4 +8,12 @@
     <string name="checkbox_text">Click on me!</string>
     <string name="toggle_text_off">выкл</string>
     <string name="toggle_text_on">вкл</string>
+    <string name="input_type_text">InputType: text</string>
+    <string name="input_type_text_person_name">InputType: textPersonName</string>
+    <string name="input_type_phone">InputType: phone</string>
+    <string name="input_type_number">InputType: number</string>
+    <string name="input_type_text_password">InputType: textPassword</string>
+    <string name="input_type_text_email_address">InputType: textEmailAddress</string>
+    <string name="title_text">Input Types</string>
+    <string name="calendar_subtitle_text">Calendar</string>
 </resources>
