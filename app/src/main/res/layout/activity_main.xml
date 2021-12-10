@@ -16,11 +16,11 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/firstTV"
+            android:id="@+id/first_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/first_text_view"
+            android:text="@string/main_title_text"
             android:background="@color/custom_green"
             android:textSize="36sp"
             android:textColor="@color/custom_yellow"
@@ -28,7 +28,7 @@
             />
 
         <EditText
-            android:id="@+id/firstEV"
+            android:id="@+id/first_edit_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -40,7 +40,7 @@
             />
 
         <LinearLayout
-            android:id="@+id/containerForButtons"
+            android:id="@+id/container_for_buttons"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -48,7 +48,7 @@
             android:layout_gravity="center" >
 
             <Button
-                android:id="@+id/horizontalButtonOne"
+                android:id="@+id/horizontal_button_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
@@ -57,7 +57,7 @@
                 />
 
             <Button
-                android:id="@+id/horizontalButtonTwo"
+                android:id="@+id/horizontal_button_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
@@ -66,7 +66,7 @@
                 />
 
             <Button
-                android:id="@+id/horizontalButtonThree"
+                android:id="@+id/horizontal_button_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
@@ -76,30 +76,30 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/containerForSwitch"
+            android:id="@+id/container_for_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <Switch
-                android:id="@+id/switchOne"
+                android:id="@+id/switch_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 tools:ignore="UseSwitchCompatOrMaterialXml" />
 
             <TextView
-                android:id="@+id/switchTV"
+                android:id="@+id/switch_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/switch_text_view"
+                android:text="@string/switch_text"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <CheckBox
-            android:id="@+id/checkboxOne"
+            android:id="@+id/checkbox_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -108,7 +108,7 @@
             android:textColor="@color/purple_700"/>
 
         <ToggleButton
-            android:id="@+id/toggleOne"
+            android:id="@+id/toggle_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

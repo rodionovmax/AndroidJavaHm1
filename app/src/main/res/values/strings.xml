@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">homework1</string>
-    <string name="first_text_view">Hello World!!!</string>
+    <string name="main_title_text">Hello World!!!</string>
     <string name="h_button_one">Button 1</string>
     <string name="h_button_two">Button 2</string>
     <string name="h_button_three">Button 3</string>
-    <string name="switch_text_view">On/Off</string>
+    <string name="switch_text">On/Off</string>
     <string name="checkbox_text">Click on me!</string>
     <string name="toggle_text_off">выкл</string>
     <string name="toggle_text_on">вкл</string>

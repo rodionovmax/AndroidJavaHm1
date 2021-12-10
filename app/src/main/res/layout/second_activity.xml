@@ -23,7 +23,7 @@
             android:layout_margin="10dp" />
 
         <LinearLayout
-            android:id="@+id/layoutTextEV"
+            android:id="@+id/layout_text_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -32,7 +32,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/textEV"
+                android:id="@+id/text_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -41,7 +41,7 @@
                 android:inputType="text" />
 
             <TextView
-                android:id="@+id/inputTypeTextTV"
+                android:id="@+id/input_type_text_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_text"
@@ -51,7 +51,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layoutTextPersonNameEV"
+            android:id="@+id/layout_text_person_name_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -60,7 +60,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/textPersonNameEV"
+                android:id="@+id/text_person_name_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -69,7 +69,7 @@
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/inputTypeTextPersonNameTV"
+                android:id="@+id/input_type_text_person_name_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_text_person_name"
@@ -79,7 +79,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layoutPhoneEV"
+            android:id="@+id/layout_phone_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -88,7 +88,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/phoneEV"
+                android:id="@+id/phone_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -97,7 +97,7 @@
                 android:inputType="phone" />
 
             <TextView
-                android:id="@+id/inputTypePhoneTV"
+                android:id="@+id/input_type_phone_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_phone"
@@ -107,7 +107,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layoutNumberEV"
+            android:id="@+id/layout_number_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -116,7 +116,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/numberEV"
+                android:id="@+id/number_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -125,7 +125,7 @@
                 android:inputType="number" />
 
             <TextView
-                android:id="@+id/inputTypeNumberTV"
+                android:id="@+id/input_type_number_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_number"
@@ -135,7 +135,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layoutTextPasswordEV"
+            android:id="@+id/layout_text_password_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -144,7 +144,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/textPasswordEV"
+                android:id="@+id/text_password_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -153,7 +153,7 @@
                 android:inputType="textPassword" />
 
             <TextView
-                android:id="@+id/inputTypeTextPasswordTV"
+                android:id="@+id/input_type_text_password_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_text_password"
@@ -163,7 +163,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layoutTextEmailAddressEV"
+            android:id="@+id/layout_text_email_address_ev"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -172,7 +172,7 @@
             android:gravity="start">
 
             <EditText
-                android:id="@+id/textEmailAddressEV"
+                android:id="@+id/text_email_address_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -181,7 +181,7 @@
                 android:inputType="textEmailAddress" />
 
             <TextView
-                android:id="@+id/inputTypeTextEmailAddressTV"
+                android:id="@+id/input_type_text_email_address_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/input_type_text_email_address"
@@ -191,7 +191,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/calendarSubtitle"
+            android:id="@+id/calendar_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/calendar_subtitle_text"
@@ -201,7 +201,7 @@
             android:layout_margin="20dp" />
 
         <CalendarView
-            android:id="@+id/calendarView"
+            android:id="@+id/calendar_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
